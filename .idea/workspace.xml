@@ -14,26 +14,29 @@
     <session id="1001610442">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1005" />
+          <entry key="java" value="1536" />
           <entry key="xml" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1005" />
+          <entry key="JAVA" value="1536" />
           <entry key="XML" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -41,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
           <entry key="properties" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -49,15 +52,24 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LoginPageElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+            <state relative-caret-position="136">
+              <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -96,7 +108,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MyFirstScript" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,6 +116,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test-output/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uielements/LoginPageElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java" />
       </list>
     </option>
@@ -122,7 +135,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +166,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="uielements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Gmail_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstScript" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_Gmail_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -165,15 +184,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535984325063" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536225378957" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Testcases">
     <configuration name="Testcases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
       <module name="MyFirstScript" />
@@ -201,8 +221,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testcases" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstScript" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webgmail.automation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webgmail.automation" />
+      <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcases.loginMail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstScript" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webgmail.automation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webgmail.automation" />
+      <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
+      <option name="METHOD_NAME" value="loginMail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Testcases" />
+      <item itemvalue="TestNG.Testcases" />
+      <item itemvalue="TestNG.Testcases.loginMail" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Testcases" />
+        <item itemvalue="TestNG.Testcases.loginMail" />
         <item itemvalue="Application.Testcases" />
       </list>
     </recent_temporary>
@@ -220,6 +281,35 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Testcases - 2018.09.06 at 13h 27m 54s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 31m 38s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 33m 39s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 40m 25s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases_loginMail - 2018.09.06 at 13h 54m 13s.xml">
+      <configuration name="Testcases.loginMail" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 55m 08s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 56m 42s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 13h 59m 16s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.06 at 14h 02m 47s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
@@ -229,15 +319,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32950193" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.36526182" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.46360153" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.27713922" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.45721585" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -256,20 +346,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Testcases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Testcases.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar!/org/openqa/selenium/remote/http/AbstractHttpResponseCodec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -277,19 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources.properties" />
     <entry file="file://$PROJECT_DIR$/test-output/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -297,10 +363,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LoginPageElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
