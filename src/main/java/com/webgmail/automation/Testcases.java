@@ -14,16 +14,16 @@ import org.apache.log4j.PropertyConfigurator;
 public class Testcases  {
 
     WebDriver driver;
-
     Logger log;
 
-    String log4jConfPath = "D:\\Chandni\\Automation\\Selenium\\p_18\\MyFirstScript\\src\\main\\resources\\log4j.properties";
-    PropertyConfigurator.configure("log4jConfPath");
-    Logger log;
+    //Logger log;
 
     @BeforeTest
     public void setup()
     {
+
+        String log4jConfPath = "D:\\Chandni\\Automation\\Selenium\\p_18\\MyFirstScript\\src\\main\\resources\\log4j.properties";
+        PropertyConfigurator.configure(log4jConfPath);
         log= Logger.getLogger("Start Project");
 
     }
