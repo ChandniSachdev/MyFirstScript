@@ -14,23 +14,26 @@
     <session id="1001610442">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1711" />
+          <entry key="java" value="1828" />
+          <entry key="properties" value="26" />
           <entry key="xml" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1711" />
+          <entry key="JAVA" value="1828" />
+          <entry key="Properties" value="26" />
           <entry key="XML" value="233" />
         </counts>
       </usages-collector>
@@ -38,16 +41,16 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="7" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="7" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="7" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="5" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="6" />
           <entry key="xsl" value="2" />
         </counts>
       </usages-collector>
@@ -58,11 +61,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -91,15 +103,16 @@
         <option value="$PROJECT_DIR$/test-output/Log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Log4j.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
-    <option name="y" value="-8" />
+    <option name="x" value="1581" />
+    <option name="y" value="-19" />
     <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,7 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -145,22 +158,34 @@
             <path>
               <item name="Web_Gmail_Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyFirstScript" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Gmail_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstScript" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536568303159" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536651404209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Chandni\Automation\Selenium\p_18\MyFirstScript\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,18 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Testcases - 2018.09.06 at 13h 31m 38s.xml">
-      <configuration name="Testcases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Testcases - 2018.09.06 at 13h 33m 39s.xml">
-      <configuration name="Testcases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Testcases - 2018.09.06 at 13h 40m 25s.xml">
-      <configuration name="Testcases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Testcases_loginMail - 2018.09.06 at 13h 54m 13s.xml">
-      <configuration name="Testcases.loginMail" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Testcases - 2018.09.06 at 13h 55m 08s.xml">
       <configuration name="Testcases" configurationId="TestNG" />
     </history-entry>
@@ -279,6 +292,18 @@
     <history-entry file="Testcases - 2018.09.06 at 21h 02m 28s.xml">
       <configuration name="Testcases" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Testcases - 2018.09.10 at 14h 00m 29s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.10 at 18h 23m 15s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.10 at 18h 26m 12s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testcases - 2018.09.10 at 18h 27m 41s.xml">
+      <configuration name="Testcases" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
@@ -289,7 +314,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26606685" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26863754" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -297,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.46360153" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.30140486" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.26279393" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -336,16 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -360,10 +375,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

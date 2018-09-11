@@ -1,5 +1,6 @@
 package com.webgmail.automation;
 
+import org.apache.log4j.spi.Configurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,11 +8,17 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
-import org.openqa.selenium.WebElement;
 
-public class Testcases {
+public class Testcases  {
+
     WebDriver driver;
+
+    Logger log;
+
+    String log4jConfPath = "D:\\Chandni\\Automation\\Selenium\\p_18\\MyFirstScript\\src\\main\\resources\\log4j.properties";
+    PropertyConfigurator.configure("log4jConfPath");
     Logger log;
 
     @BeforeTest
