@@ -60,11 +60,11 @@ public class Testcases  {
     public void loginMail() {
 
         try {
-            driver.findElement((By.id(Constant.Username))).sendKeys("chandni@twojay.co");
-            driver.findElement(By.id(Constant.Next1)).click();
+            driver.findElement((By.id(Constant.username))).sendKeys("chandni@twojay.co");
+            driver.findElement(By.id(Constant.next1)).click();
             driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-            driver.findElement(By.xpath(Constant.Password)).sendKeys("chandni@1491");
-            driver.findElement(By.xpath(Constant.Next2)).click();
+            driver.findElement(By.xpath(Constant.password)).sendKeys("chandni@123");
+            driver.findElement(By.xpath(Constant.next2)).click();
 
     }catch (Exception e){
 
@@ -84,8 +84,8 @@ public class Testcases  {
         try{
 
        //driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-       driver.findElement(By.xpath(Constant.ProfileId)).click();
-       driver.findElement(By.xpath(Constant.Logout)).click();
+       driver.findElement(By.xpath(Constant.profileIcon)).click();
+       driver.findElement(By.xpath(Constant.logout)).click();
 
     }catch(Exception e){
 
