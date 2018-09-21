@@ -14,29 +14,30 @@
     <session id="1001610442">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="2700" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="4045" />
           <entry key="properties" value="26" />
           <entry key="xml" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2700" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="4045" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="26" />
           <entry key="XML" value="233" />
         </counts>
@@ -44,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="15" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="9" />
         </counts>
@@ -52,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="15" />
           <entry key="properties" value="4" />
           <entry key="xml" value="7" />
           <entry key="xsl" value="2" />
@@ -64,10 +65,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/execution/Testcases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,36 +77,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uielements/Resuable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Reuseable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LoginPageElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LogOutElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -144,17 +123,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Log4j.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/resuable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Resuable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uielements/Resuable.java" />
         <option value="$PROJECT_DIR$/src/main/java/uielements/LoginPageElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uielements/LoginPageElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java" />
         <option value="$PROJECT_DIR$/src/main/java/uielements/LogOutElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uielements/Resuable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Resuable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uielements/LoginPageElements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/execution/tests/Testcases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/execution/test/Testcases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webgmail/automation/Reuseable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/execution/Testcases.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -166,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,12 +206,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537348287949" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537451840714" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -255,11 +238,11 @@
   </component>
   <component name="RunManager" selected="TestNG.Testcases">
     <configuration name="Testcases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="execution.tests.Testcases" />
       <module name="MyFirstScript" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uielements.*" />
+          <option name="PATTERN" value="execution.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +254,12 @@
       <module name="MyFirstScript" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uielements.*" />
+          <option name="PATTERN" value="execution.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webgmail.automation" />
-      <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="execution.tests.Testcases" />
       <properties />
       <listeners />
       <method v="2">
@@ -287,12 +270,12 @@
       <module name="MyFirstScript" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uielements.*" />
+          <option name="PATTERN" value="execution.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webgmail.automation" />
-      <option name="MAIN_CLASS_NAME" value="com.webgmail.automation.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="execution.tests.Testcases" />
       <option name="METHOD_NAME" value="loginMail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -360,18 +343,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28277636" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2866324" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.36526182" />
+      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.13793103" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.46360153" />
@@ -422,30 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Testcases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uielements/Resuable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LoginPageElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -454,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uielements/LogOutElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -464,8 +428,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webgmail/automation/Reuseable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/execution/Testcases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

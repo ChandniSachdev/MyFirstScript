@@ -10,11 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageElements {
 
-    public class LoginPageElements{
-
-        public LoginPageElements(WebDriver driver)  {
-//This initlements method will create all Webelements
-            PageFactory.initElements(driver, this); }
+        public LoginPageElements(WebDriver driver)  { PageFactory.initElements(driver, this); }
+/** This initlelements method will create all Webelements */
 
          @FindBy(id="identifierId")
          public WebElement username;
@@ -31,10 +28,4 @@ public class LoginPageElements {
 
         }
 
-    }
 
-
-
-
-
-}

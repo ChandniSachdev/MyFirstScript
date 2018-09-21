@@ -1,5 +1,7 @@
-package com.webgmail.automation;
+package execution;
 
+import com.webgmail.automation.Constant;
+import com.webgmail.automation.Reuseable;
 import org.apache.log4j.spi.Configurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,11 +11,15 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import uielements.LoginPageElements;
+import com.webgmail.automation.Reuseable;
 
 
 public class Testcases  {
 
-    WebDriver driver;
+    public static WebDriver driver;
+    Reuseable reuseable;
+
     Logger log;
 
     //Logger log;
@@ -60,11 +66,12 @@ public class Testcases  {
     public void loginMail() {
 
         try {
-            driver.findElement((By.id(Constant.username))).sendKeys("chandni@twojay.co");
+            LoginPageElements loginPageElements = new LoginPageElements(driver);
+           /* driver.findElement((By.id(Constant.username))).sendKeys("chandni@twojay.co");
             driver.findElement(By.id(Constant.next1)).click();
             driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
             driver.findElement(By.xpath(Constant.password)).sendKeys("chandni@123");
-            driver.findElement(By.xpath(Constant.next2)).click();
+            driver.findElement(By.xpath(Constant.next2)).click();*/
 
     }catch (Exception e){
 
